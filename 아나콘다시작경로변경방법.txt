@@ -1,0 +1,16 @@
+Anaconda Prompt 
+
+시작경로 변경하는방법
+(1) Anaconda Prompt 파일로 이동
+(2) Anaconda Prompt 속성
+(3) 시작경로 %HOMEPATH% -> 원하는 경로로 변경
+
+관리자 권한 또한 시작경로 변경하는방법
+(1) jupyter notebook 에서 
+" jupyter notebook --generate-config " 입력
+(2) 입력 후에 나오는 경로로 이동
+(3) python 파일을 메모장으로 열기
+(4) 검색 -> " NotebookApp.notebook_dir "
+(5) 주석(#) 을 빼고 주소 넣기
+
+-> cd (change derectory) 를 해도 설정한 값이 나옴 
